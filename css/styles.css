@@ -52,4 +52,24 @@ body {
 .contact:focus {
   color: var(--brand-color);
 }
-.first-section
+.first-section {
+  background-color: #2f303a;
+}
+.center-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.center-button {
+  background-color: var(--brand-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
