@@ -73,3 +73,14 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+.description-title {
+  color: var(--title-color);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.description {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
