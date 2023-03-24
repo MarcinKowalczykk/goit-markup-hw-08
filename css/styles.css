@@ -123,3 +123,31 @@ font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.portfolio-button {
+  background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+  color: var(--primary-white-color);
+  background-color: var(--brand-color);
+}
+.contact-footer-mail{
+  text-decoration: underline; 
+}
+.portfolio-img-title{
+  color: var(--title-color);
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.portfolio-img-dsc{
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
