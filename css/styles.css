@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-white-color);
@@ -25,26 +37,21 @@ body {
 .studio-header {
   color: #000000;
 }
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-.nav-list {
+
+.nav-list .contact {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-list {
   color: var(--title-color);
 }
+
 .nav-list:hover,
 .nav-list:focus {
   color: var(--brand-color);
 }
 .contact {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .contact:hover,
@@ -70,7 +77,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  cursor: pointer;
 }
 .description-title {
   color: var(--title-color);
@@ -105,48 +111,46 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.footer{
-  background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
-.studio-footer{
+.studio-footer {
   color: var(--primary-white-color);
+}
+.contact-footer .address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contact-footer {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
-font-style: normal;
 }
-.address{
+.address {
   color: var(--primary-white-color);
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .portfolio-button {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  cursor: pointer;
 }
 .portfolio-button:hover,
-.portfolio-button:focus{
+.portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--brand-color);
 }
-.contact-footer-mail{
-  text-decoration: underline; 
+.contact-footer-mail {
+  text-decoration: underline;
 }
-.portfolio-img-title{
+.portfolio-img-title {
   color: var(--title-color);
   font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.portfolio-img-dsc{
+.portfolio-img-dsc {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
