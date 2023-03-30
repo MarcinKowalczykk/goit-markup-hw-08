@@ -85,7 +85,7 @@ body {
   text-transform: uppercase;
   width: 696px;
   margin: 0 auto;
-  
+
 }
 .center-button {
   background-color: var(--brand-color);
@@ -109,6 +109,7 @@ body {
 }
 .description {
   line-height: 1.71;
+  margin-top: 10px;
 }
 .section-title {
   font-size: 36px;
@@ -223,4 +224,19 @@ body {
 }
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
+}
+.second-section{
+  background-color: var(--primary-white-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.lorem-list{
+  display: flex;
+}
+.lorem-list .item:not(:last-child){
+  margin-right: 30px;
+}
+.lorem-item{
+  display: inline-block;
+  width: 270px;
 }
