@@ -14,19 +14,23 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html">Web<span class="studio-header">Studio</span></a>
-        <ul class="list">
-          <li><a href="#" class="nav-list link">Agencja</a></li>
-          <li><a href="./portfolio.html" class="nav-list link">Portfolio</a></li>
-          <li><a href="#" class="nav-list link">Kontakt</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-menu">
+          <a class="logo" href="./index.html">Web<span class="studio-header">Studio</span></a>
+          <ul class="list nav-list">
+            <li class="item"><a href="#" class="nav-link link">Agencja</a></li>
+            <li class="item"><a href="./portfolio.html" class="nav-link link">Portfolio</a></li>
+            <li class="item"><a href="#" class="nav-link link">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="list contact-list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+48111111111" class="contact link">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111" class="contact link">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -93,22 +97,22 @@
     </main>
 
     <footer class="footer">
+      <div class="container">
       <a class="logo" href="./index.html">Web<span class="studio-footer">Studio</span></a>
-      <address>
+      <address class="footer-address">
         <ul class="list">
           <li>
             <a class="address link" href="https://goo.gl/maps/DqFRkDnWRkVaE6vH8" target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li>
-            <a class="link contact-footer contact-footer-mail" href="mailto:info@example.com"
-              >info@example.com</a
-            >
+          <li class="footer-item">
+            <a class="link contact-footer" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li><a class="link contact-footer" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li class="footer-item"><a class="link contact-footer" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
