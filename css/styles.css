@@ -68,16 +68,33 @@ body {
 .nav-link:focus {
   color: var(--brand-color);
 }
+.header-mail-icon {
+  padding-right: 10px;
+  fill: var(--brand-color);
+}
+.header-tel-icon{
+padding-right: 10px;
+fill: var(--brand-color);
+}
+
+.header-mail-icon:hover,
+.header-mail-icon:focus{
+fill: var(--brand-color);
+}
+.header-tel-icon:hover,
+.header-tel-icon:focus{
+  fill: var(--brand-color);
+}
 .contact {
+  display: flex;
   color: var(--primary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .contact:hover,
-.contact:focus {
+.contact:focus{
   color: var(--brand-color);
 }
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -148,7 +165,15 @@ body {
 .second-section {
   background-color: var(--primary-white-color);
 }
-
+.lorem-icon-list{
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+}
 .lorem-list {
   display: flex;
 }
