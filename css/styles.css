@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'Raleway', sans-serif;
+  --icon-primary-color: #AFB1B8;
 }
 * {
   margin: 0;
@@ -224,7 +225,7 @@ padding-right: 10px;
 .team-img {
   background-color: var(--primary-white-color);
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 215px;
   top: 1635px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -265,6 +266,36 @@ padding-right: 10px;
   display: inline-block;
   margin: auto;
 }
+.team-insta-icon, .team-tweet-icon, .team-fb-icon, .team-in-icon{
+  display:inline-flex ;
+  width: 44px;
+  height: 44px;
+}
+.social-icon-list{
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.team-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--icon-primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.social-icon-list .team-icon:not(:last-child){
+  margin-right: 10px;
+}
+.social-icon-list .team-icon:hover,
+.team-icon:focus{
+  background-color: var(--brand-color);
+  fill: var(--primary-white-color);
+}
 /* end of main section 4 index */
 /* end of main index */
 
@@ -295,6 +326,8 @@ padding-right: 10px;
 .portfolio-button-list {
   display: flex;
 }
+
+
 /* end of portfolio buttons */
 /* portfolio main page */
 
