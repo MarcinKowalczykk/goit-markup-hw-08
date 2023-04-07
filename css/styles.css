@@ -64,27 +64,18 @@ body {
   color: var(--title-color);
 }
 
-.nav-link:hover,
+.nav-link:hover ,
 .nav-link:focus {
   color: var(--brand-color);
 }
 .header-mail-icon {
   padding-right: 10px;
-  fill: var(--brand-color);
 }
 .header-tel-icon{
 padding-right: 10px;
-fill: var(--brand-color);
+
 }
 
-.header-mail-icon:hover,
-.header-mail-icon:focus{
-fill: var(--brand-color);
-}
-.header-tel-icon:hover,
-.header-tel-icon:focus{
-  fill: var(--brand-color);
-}
 .contact {
   display: flex;
   color: var(--primary-text-color);
@@ -94,6 +85,14 @@ fill: var(--brand-color);
 .contact:hover,
 .contact:focus{
   color: var(--brand-color);
+}
+.contact:focus .header-mail-icon,
+.contact:hover .header-mail-icon {
+  fill: currentColor;
+}
+.contact:focus .header-tel-icon,
+.contact:hover .header-tel-icon {
+  fill: currentColor;
 }
 .header-container {
   display: flex;
