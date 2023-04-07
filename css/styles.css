@@ -428,9 +428,45 @@ fill: var(--primary-text-color);
   font-style: normal;
 }
 .footer-address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-item {
   padding-top: 9px;
+}
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+.footer-info{
+margin-right: 70px;
+}
+.footer-social-title{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.social-icon-list-footer{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--primary-white-color);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1) ;
+}
+.social-icon-list-footer .footer-icon:hover,
+.footer:focus{
+  background-color: var(--brand-color);
 }
 /* end of footer */
