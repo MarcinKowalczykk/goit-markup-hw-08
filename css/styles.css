@@ -71,9 +71,12 @@ body {
 }
 .header-mail-icon {
   padding-right: 10px;
+fill: var(--primary-text-color);
 }
 .header-tel-icon{
 padding-right: 10px;
+fill: var(--primary-text-color);
+
 
 }
 
@@ -297,6 +300,31 @@ padding-right: 10px;
   fill: var(--primary-white-color);
 }
 /* end of main section 4 index */
+
+/* main section 5 index */
+.clients-icons-list{
+  display: flex;
+  margin-top: 50px;
+}
+.company-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  fill: var(--icon-primary-color);
+  border: 1px solid var(--icon-primary-color);
+  cursor: pointer;
+}
+.clients-icons-list .company-icon:not(:last-child){
+  margin-right: 30px;
+}
+.clients-icons-list .company-icon:hover,
+.company-icon:focus{
+  border-color: var(--brand-color);
+  fill: var(--brand-color);
+}
+/* end of main section 5 index */
 /* end of main index */
 
 /* portfolio buttons */
