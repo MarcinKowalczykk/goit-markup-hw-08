@@ -12,10 +12,8 @@
 }
 
 ul {
-  padding-left: 0;
-}
-ul {
   list-style: none;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
@@ -32,7 +30,6 @@ body {
   letter-spacing: 0.03em;
 }
 .header {
-  background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
 }
 .container {
@@ -72,10 +69,13 @@ body {
 .header-mail-icon {
   padding-right: 10px;
   fill: var(--primary-text-color);
+  margin-top: 2px;
 }
 .header-tel-icon {
   padding-right: 10px;
   fill: var(--primary-text-color);
+  align-items: center;
+  display: flex;
 }
 
 .contact {
@@ -134,7 +134,7 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
+  background-size: 1600px;
 }
 .center-title {
   color: var(--primary-white-color);
@@ -146,6 +146,9 @@ body {
   text-transform: uppercase;
   width: 696px;
   margin: auto;
+  position: static;
+  top: 50%;
+  left: 50%;
 }
 .center-button {
   background-color: var(--brand-color);
