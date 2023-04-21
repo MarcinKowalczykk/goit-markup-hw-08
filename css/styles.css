@@ -58,8 +58,10 @@ body {
 }
 .nav-link {
   display: block;
-  
-
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
   color: var(--title-color);
 }
 .nav-underline{
@@ -96,6 +98,10 @@ body {
   color: var(--primary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .contact:hover,
 .contact:focus {
@@ -166,6 +172,7 @@ body {
 .center-button {
   background-color: var(--brand-color);
   color: var(--primary-white-color);
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -190,6 +197,7 @@ body {
   justify-content: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  
 }
 .lorem-list {
   display: flex;
@@ -233,6 +241,24 @@ body {
 }
 .img-index-list .item:not(:last-child) {
   margin-right: 30px;
+}
+.img-with-title{
+position: relative;
+display: inline-flex;
+}
+.img-title{
+position: absolute;
+left: 0;
+right: 0;
+background-color: rgba(47, 48, 58, 0.8);
+color: var(--primary-white-color);
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1.14;
+bottom: 0;
+padding: 27px;
+text-align: center;
+
 }
 /* end of main section 3 index */
 /* main section 4 index */
@@ -293,6 +319,8 @@ body {
   margin-top: 16px;
   justify-content: center;
   align-items: center;
+  
+  
 }
 .team-icon {
   display: flex;
@@ -304,7 +332,13 @@ body {
   border-radius: 50%;
   cursor: pointer;
   margin-bottom: 30px;
+  transition-property: background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+ 
 }
+
 .social-icon-list .team-icon:not(:last-child) {
   margin-right: 10px;
 }
@@ -329,6 +363,10 @@ body {
   fill: var(--icon-primary-color);
   border: 1px solid var(--icon-primary-color);
   cursor: pointer;
+  transition-property: border-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .clients-icons-list .company-icon:not(:last-child) {
   margin-right: 30px;
@@ -344,12 +382,17 @@ body {
 /* portfolio buttons */
 .portfolio-button {
   background-color: #f5f4fa;
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
+  transition-property: color background-color box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .portfolio-button:hover,
@@ -379,6 +422,10 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+  transition-property: cursor box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .portfolio-img-title {
   color: var(--title-color);
@@ -471,6 +518,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  
 }
 .footer-icon {
   display: flex;
@@ -482,6 +530,10 @@ body {
   border-radius: 50%;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .social-icon-list-footer .footer-icon:hover,
 .footer:focus {
