@@ -162,7 +162,7 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  border: 0;
+  border: none;
 }
 /* end of main section 1 index */
 /* main section 2 index */
@@ -230,8 +230,7 @@ body {
   background-color: var(--primary-white-color);
   width: 270px;
   height: 428px;
-  left: 215px;
-  top: 1635px;
+  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -244,7 +243,6 @@ body {
   color: var(--title-color);
   text-align: center;
   width: 210px;
-  margin: auto;
   padding-bottom: 50px;
 }
 .team-list {
@@ -268,7 +266,6 @@ body {
   line-height: 1.19;
   padding-top: 10px;
   display: inline-block;
-  margin: auto;
 }
 .team-insta-icon,
 .team-tweet-icon,
@@ -339,7 +336,7 @@ body {
   line-height: 1.62;
   padding: 6px 22px;
   border-radius: 4px;
-  border: 0;
+  border: none;
 }
 
 .portfolio-button:hover,
@@ -366,11 +363,8 @@ body {
 
 .portfolio-img {
   background-color: var(--primary-white-color);
-  box-sizing: border-box;
   width: 370px;
   height: 404px;
-  left: 615px;
-  top: 262px;
   border: 1px solid #eeeeee;
 }
 .portfolio-img-title {
