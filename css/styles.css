@@ -47,6 +47,8 @@ body {
 
 .studio-header {
   color: #000000;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .nav-link .contact {
@@ -56,10 +58,21 @@ body {
 }
 .nav-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 
   color: var(--title-color);
+}
+.nav-underline{
+  position: relative;
+}
+.nav-underline::after{
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--brand-color);
+  margin-top: 28px;
 }
 
 .nav-link:hover,
