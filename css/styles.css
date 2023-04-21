@@ -277,6 +277,7 @@ text-align: center;
   text-align: center;
   width: 210px;
   padding-bottom: 50px;
+  margin: auto;
 }
 .team-list {
   display: flex;
