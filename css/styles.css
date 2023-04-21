@@ -44,13 +44,11 @@ body {
   line-height: 1.19;
   color: var(--brand-color);
 }
-
 .studio-header {
   color: #000000;
   margin-top: 24px;
   margin-bottom: 25px;
 }
-
 .nav-link .contact {
   font-weight: 500;
   line-height: 1.14;
@@ -76,7 +74,6 @@ body {
   background-color: var(--brand-color);
   margin-top: 28px;
 }
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--brand-color);
@@ -92,7 +89,6 @@ body {
   align-items: center;
   display: flex;
 }
-
 .contact {
   display: flex;
   color: var(--primary-text-color);
@@ -197,7 +193,6 @@ body {
   justify-content: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  
 }
 .lorem-list {
   display: flex;
@@ -258,7 +253,6 @@ line-height: 1.14;
 bottom: 0;
 padding: 27px;
 text-align: center;
-
 }
 /* end of main section 3 index */
 /* main section 4 index */
@@ -319,8 +313,6 @@ text-align: center;
   margin-top: 16px;
   justify-content: center;
   align-items: center;
-  
-  
 }
 .team-icon {
   display: flex;
@@ -336,9 +328,7 @@ text-align: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
- 
 }
-
 .social-icon-list .team-icon:not(:last-child) {
   margin-right: 10px;
 }
@@ -348,7 +338,6 @@ text-align: center;
   fill: var(--primary-white-color);
 }
 /* end of main section 4 index */
-
 /* main section 5 index */
 .clients-icons-list {
   display: flex;
@@ -378,7 +367,6 @@ text-align: center;
 }
 /* end of main section 5 index */
 /* end of main index */
-
 /* portfolio buttons */
 .portfolio-button {
   background-color: #f5f4fa;
@@ -394,7 +382,6 @@ text-align: center;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 }
-
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-white-color);
@@ -413,10 +400,8 @@ text-align: center;
 .portfolio-button-list {
   display: flex;
 }
-
 /* end of portfolio buttons */
 /* portfolio main page */
-
 .portfolio-img {
   background-color: var(--primary-white-color);
   width: 370px;
@@ -487,7 +472,6 @@ text-align: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-
 }
 .img-container{
 position: relative;
@@ -544,7 +528,6 @@ overflow: hidden;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  
 }
 .footer-icon {
   display: flex;
@@ -606,7 +589,6 @@ border-radius: 4px;
   position: absolute;
   width: 13px;
   height: 13px;
-  
 } 
 .is-hidden{
   opacity: 0;
