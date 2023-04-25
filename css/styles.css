@@ -642,6 +642,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 0 0 0 44px;
+  outline: transparent;
 }
 .modal-name-icon {
   fill: var(--title-color);
