@@ -626,48 +626,58 @@ body {
   color: var(--title-color);
 }
 .form-label {
+  position: relative;
+  display: block;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
-  padding: 10px 0px 4px 40px;
+left: 40px;
+margin-top: 10px;
+margin-bottom: 4px;
 }
 .modal-input-container {
   position: relative;
 }
 .modal-input {
-  margin-left: 40px;
+  
   width: 404px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 0 0 0 44px;
   outline: transparent;
+  margin-left: 40px;
 }
 .modal-name-icon {
   fill: var(--title-color);
   position: absolute;
-  left: 12px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   transition-property: fill;
   transition-duration: 250ms;
-  left: 55px;
   border: none;
+  margin-left: 40px;
 }
 .modal-textarea-container {
-  margin-left: 40px;
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-left: 40px;
+  
 }
 .modal-textarea {
-  margin: 12px 16px;
+  display: block;
   resize: none;
-  border: none;
-  width: 416px;
-  height: 96px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 415px;
+  height: 94px;
+  outline: none;
+  margin-left: 40px;
+  padding: 12px 16px;
 }
 .modal-input:focus{
   border-color: var(--brand-color);
@@ -675,4 +685,8 @@ body {
 .modal-input:focus + .modal-name-icon{
   fill: var(--brand-color);
 }
+.modal-textarea:focus-within{
+  border-color: var(--brand-color);
+}
+
 /* END OF BACKDROP */
