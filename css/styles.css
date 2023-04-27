@@ -688,5 +688,16 @@ margin-bottom: 4px;
 .modal-textarea:focus-within{
   border-color: var(--brand-color);
 }
-
+.checkbox-container{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.checkbox-text{
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+.modal-link{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
 /* END OF BACKDROP */
