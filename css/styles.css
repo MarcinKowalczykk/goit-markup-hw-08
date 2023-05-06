@@ -28,32 +28,32 @@ body {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
+/* header */
 .header {
   border-bottom: 1px solid #ececec;
 }
-.container {
+.header__container {
   width: 1200px;
   margin: 0 auto;
 }
-/* header */
-.logo {
+.header__logo {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--brand-color);
 }
-.studio-header {
+.header__studio {
   color: #000;
   margin-top: 24px;
   margin-bottom: 25px;
 }
-.nav-link .contact {
+.header__nav-link .contact {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-link {
+.header__nav-link {
   display: block;
   transition-property: color;
   transition-duration: 250ms;
@@ -61,11 +61,11 @@ body {
   transition-delay: 0;
   color: var(--title-color);
 }
-.nav-underline {
+.header__nav-link--underline {
   position: relative;
   display: flex;
 }
-.nav-underline::after {
+.header__nav-link--underline::after {
   content: '';
   position: absolute;
   width: 53px;
@@ -74,8 +74,8 @@ body {
   background-color: var(--brand-color);
   top: 46px;
 }
-.nav-link:hover,
-.nav-link:focus {
+.header__nav-link:hover,
+.header__nav-linkk:focus {
   color: var(--brand-color);
 }
 .header-mail-icon {
@@ -123,11 +123,11 @@ body {
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
 }
-.nav-menu {
+.header__nav {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.header__nav-list{
   display: flex;
   padding-left: 93px;
 }
