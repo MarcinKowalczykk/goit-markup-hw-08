@@ -140,7 +140,7 @@ body {
 /* .section {
   padding: 94px 0;
 } */
-.first-section {
+.slogan {
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/section1.jpg');
@@ -152,7 +152,7 @@ body {
   background-size: 1600px;
   background-position: center;
 }
-.center-title {
+.slogan__center-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;

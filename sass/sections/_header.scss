@@ -36,10 +36,10 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-  }
-  .header__nav-link:hover,
-  .header__nav-linkk:focus {
-    color: $brand-color;
+    &:hover,
+    &:focus{
+      color: $brand-color;
+    }
   }
   .header__nav-link--underline {
     position: relative;
@@ -63,7 +63,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
+  &:hover,
+&:focus {
+  color: $brand-color;
 }
+  }
   .header__nav-item:not(:last-child) {
     margin-right: 46px;
   }
@@ -73,18 +77,6 @@
 }
 .header__contact-list .header__contact-item:not(:last-child) {
   margin-right: 50px;
-}
-.header__contact-link:hover,
-.header__contact-link:focus {
-  color: $brand-color;
-}
-.header__contact-link:focus .header__mail-icon,
-.header__contact-link:hover .header__mail-icon {
-  fill: currentColor;
-}
-.header__contact-link:focus .header__tel-icon,
-.header__contact-link:hover .header__tel-icon {
-  fill: currentColor;
 }
 .header__mail-icon {
   padding-right: 10px;
