@@ -1,0 +1,32 @@
+.lorem {
+  background-color: $primary-white-color;
+}
+.lorem__list {
+  display: flex;
+}
+.lorem__item {
+  display: inline-block;
+  &:not(:last-child) {
+  margin-right: 30px;
+}
+}
+.lorem__icon-list {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.lorem__description-title {
+  color: $title-color;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.lorem__description {
+  line-height: 1.71;
+  margin-top: 10px;
+}
