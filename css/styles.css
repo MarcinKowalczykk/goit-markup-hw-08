@@ -78,18 +78,18 @@ body {
 .header__nav-linkk:focus {
   color: var(--brand-color);
 } */
-.header-mail-icon {
+/* .header__mail-icon {
   padding-right: 10px;
   fill: var(--primary-text-color);
   margin-top: 2px;
 }
-.header-tel-icon {
+.header__tel-icon {
   padding-right: 10px;
   fill: var(--primary-text-color);
   align-items: center;
   display: flex;
-}
-.contact {
+} */
+/* .header__contact-link {
   display: flex;
   color: var(--primary-text-color);
   padding-top: 32px;
@@ -99,30 +99,30 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 }
-.contact:hover,
-.contact:focus {
+.header__contact-link:hover,
+.header__contact-link:focus {
   color: var(--brand-color);
 }
-.contact:focus .header-mail-icon,
-.contact:hover .header-mail-icon {
+.header__contact-link:focus .header-mail-icon,
+.header__contact-link:hover .header-mail-icon {
   fill: currentColor;
 }
-.contact:focus .header-tel-icon,
-.contact:hover .header-tel-icon {
+.header__contact-link:focus .header-tel-icon,
+.header__contact-link:hover .header-tel-icon {
   fill: currentColor;
-}
+} */
 /* .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 } */
-.contact-list {
+/* .header__contact-list {
   display: flex;
   align-items: center;
-}
-.contact-list .item:not(:last-child) {
+} */
+/* .header__contact-list .header__contact-item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 /* .header__nav {
   display: flex;
   align-items: center;
@@ -131,9 +131,9 @@ body {
   display: flex;
   padding-left: 93px;
 } */
-.item:not(:last-child) {
+/* .header__contact-item:not(:last-child) {
   margin-right: 46px;
-}
+} */
 /* end od header */
 /* main index */
 /* main section 1 index  */
