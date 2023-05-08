@@ -199,7 +199,7 @@ body {
 .lorem__item {
   display: inline-block;
 } */
-.lorem__description-title {
+/* .lorem__description-title {
   color: var(--title-color);
   font-size: 14px;
   font-weight: 700;
@@ -209,14 +209,14 @@ body {
 .lorem__description {
   line-height: 1.71;
   margin-top: 10px;
-}
+} */
 /* end of main section 2 index */
 /* main section 3 index */
-.third-section {
+.examples {
   background-color: var(--primary-white-color);
   padding-top: 0;
 }
-.section-title {
+.examples__title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -224,17 +224,17 @@ body {
   text-align: center;
   padding-bottom: 50px;
 }
-.img-index-list {
+.examples__img-list {
   display: flex;
 }
-.img-index-list .item:not(:last-child) {
+.examples__img:not(:last-child) {
   margin-right: 30px;
 }
-.img-with-title {
+.examples__img {
   position: relative;
   display: inline-flex;
 }
-.img-title {
+.examples__img-title {
   position: absolute;
   left: 0;
   right: 0;

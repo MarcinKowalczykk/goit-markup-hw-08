@@ -1,0 +1,35 @@
+.examples {
+  background-color: $primary-white-color;
+  padding-top: 0;
+}
+.examples__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: $title-color;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.examples__img-list {
+  display: flex;
+}
+.examples__img:not(:last-child) {
+  margin-right: 30px;
+}
+.examples__img {
+  position: relative;
+  display: inline-flex;
+}
+.examples__img-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: $primary-white-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.14;
+  bottom: 0;
+  padding: 27px;
+  text-align: center;
+}
