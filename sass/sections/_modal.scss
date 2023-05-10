@@ -2,7 +2,7 @@
   position: relative;
   min-width: 528px;
   min-height: 581px;
-  background-color: $primary-white-color;
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -34,7 +34,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  color: $title-color;
+  color: var(--title-color);
 }
 .modal__form-container {
   max-width: 448px;
@@ -64,13 +64,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-  color: $title-color;
+  color: var(--title-color);
   &:focus {
-  border-color: $brand-color;
+  border-color: var(--brand-color);
 }
 }
 .modal__icon {
-  fill: $title-color;
+  fill: var(--title-color);
   position: absolute;
   left: 15px;
   top: 50%;
@@ -103,14 +103,14 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
   &:focus-within {
-  border-color: $brand-color;
+  border-color: var(--brand-color);
 }
 }
 .modal__input:focus + .modal__icon {
-  fill: $brand-color;
+  fill: var(--brand-color);
 }
 .modal__link{
-  color: $brand-color;
+  color: var(--brand-color);
   text-decoration: underline;
   padding-left: 4px;
  &:not(:last-child){
@@ -123,9 +123,9 @@
   justify-content: center;
 }
 .modal__button{
-  background-color: $brand-color;
-  color: $primary-white-color;
-  font-family: $font-primary;
+  background-color: var(--brand-color);
+  color: var(--primary-white-color);
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;

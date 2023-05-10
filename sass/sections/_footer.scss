@@ -1,7 +1,7 @@
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
-  font-family: $font-primary;
+  font-family: var(--font-primary);
 }
 .footer__container {
   display: flex;
@@ -11,22 +11,21 @@
   margin-right: 70px;
 }
 .footer__studio {
-  color: $primary-white-color;
+  color: var(--primary-white-color);
 }
 .footer__address {
   margin-top: 20px;
 }
 .footer__address-link {
-  color: $primary-white-color;
+  color: var(--primary-white-color);
   font-style: normal;
    line-height: 1.71;
   font-style: normal;
 }
 .footer__item {
-  
 }
 .footer__contact {
-  color: $primary-text-color;
+  color: var(--primary-text-color);
   font-style: normal;
   transition-property: color;
   transition-duration: 250ms;
@@ -36,7 +35,7 @@
   font-style: normal;
   &:hover,
   &:focus{
-    color: $brand-color;
+    color: var(--brand-color);
   }
 }
 .footer__social-title {
@@ -44,7 +43,7 @@
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: $primary-white-color;
+  color: var(--primary-white-color);
 }
 .footer__social-icon-list {
   display: flex;
@@ -57,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: $primary-white-color;
+  fill: var(--primary-white-color);
   border-radius: 50%;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
@@ -69,13 +68,13 @@
   gap: 10px;
   &:hover,
 &:focus {
-  background-color: $brand-color;
+  background-color: var(--brand-color);
 }
 }
 .footer__newsletter-title {
   margin-left: 78px;
   margin-bottom: 20px;
-  color: $primary-white-color;
+  color: var(--primary-white-color);
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.17;
@@ -89,11 +88,11 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  color: $primary-white-color;
+  color: var(--primary-white-color);
   padding-left: 16px;
   font-size: 16px;
 }
 .footer__send-icon {
-  fill: $primary-white-color;
+  fill: var(--primary-white-color);
   margin-left: 24px;
 }

@@ -1,7 +1,7 @@
 .button-center {
-  background-color: $brand-color;
-  color: $primary-white-color;
-  font-family: $font-primary;
+  background-color: var(--brand-color);
+  color: var(--primary-white-color);
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -13,10 +13,10 @@
 }
 .footer__email-button {
   display: inline-flex;
-  background: $brand-color;
+  background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: $primary-white-color;
+  color: var(--primary-white-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -25,4 +25,3 @@
   border: none;
   margin-left: 10px;
 }
-

@@ -21,18 +21,18 @@
   }
   .header__nav-link {
     display: block;
-    color: $title-color;
+    color: var(--title-color);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
-    color: $title-color;
+    color: var(--title-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     &:hover,
     &:focus {
-      color: $brand-color;
+      color: var(--brand-color);
     }
   }
   .header__nav-link--underline {
@@ -45,12 +45,12 @@
     width: 53px;
     height: 4px;
     border-radius: 2px;
-    background-color: $brand-color;
+    background-color: var(--brand-color);
     top: 46px;
   }
   .header__contact-link {
     display: flex;
-    color: $primary-text-color;
+    color: var(--primary-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
     transition-property: color;
@@ -59,7 +59,7 @@
     transition-delay: 0;
     &:hover,
     &:focus {
-      color: $brand-color;
+      color: var(--brand-color);
     }
   }
   .header__nav-item:not(:last-child) {
@@ -74,15 +74,12 @@
   }
   .header__mail-icon {
     padding-right: 10px;
-    fill: $primary-text-color;
+    fill: var(--primary-text-color);
     margin-top: 2px;
-    //   &:hover,
-    // &focus-within .header__contact-link {
-    //   fill: currentColor;
   }
   .header__tel-icon {
     padding-right: 10px;
-    fill: $primary-text-color;
+    fill: var(--primary-text-color);
     align-items: center;
     display: flex;
   }
