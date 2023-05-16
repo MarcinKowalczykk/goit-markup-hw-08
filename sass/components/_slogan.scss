@@ -9,8 +9,7 @@
   padding-bottom: 200px;
   background-size: 1600px;
   background-position: center;
-}
-.slogan__center-title {
+&__title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -20,4 +19,5 @@
   text-transform: uppercase;
   width: 696px;
   margin: 0 auto;
+}
 }

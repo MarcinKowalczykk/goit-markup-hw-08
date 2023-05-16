@@ -2,57 +2,52 @@
   background-color: #2f303a;
   padding: 60px 0;
   font-family: var(--font-primary);
-}
-.footer__container {
-  display: flex;
-  align-items: baseline;
-}
-.footer__info {
+
+&__info {
   margin-right: 70px;
-}
-.footer__studio {
-  color: var(--primary-white-color);
 }
 .footer__address {
   margin-top: 20px;
 }
-.footer__address-link {
+&__address-link {
   color: var(--primary-white-color);
   font-style: normal;
-   line-height: 1.71;
+  line-height: 1.71;
   font-style: normal;
 }
-.footer__item {
+&__item {
+  margin-top: 3px;
 }
-.footer__contact {
+&__contact {
   color: var(--primary-text-color);
   font-style: normal;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-   line-height: 1.71;
+  line-height: 1.71;
   font-style: normal;
   &:hover,
-  &:focus{
+  &:focus {
     color: var(--brand-color);
   }
+  margin-bottom: 9px;
 }
-.footer__social-title {
+&__social-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.footer__social-icon-list {
+&__social-icon-list {
   display: flex;
   margin-top: 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.footer__icon {
+&__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,11 +62,11 @@
   padding: 12px 12px 12px 12px;
   gap: 10px;
   &:hover,
-&:focus {
-  background-color: var(--brand-color);
+  &:focus {
+    background-color: var(--brand-color);
+  }
 }
-}
-.footer__newsletter-title {
+&__newsletter-title {
   margin-left: 78px;
   margin-bottom: 20px;
   color: var(--primary-white-color);
@@ -79,7 +74,7 @@
   font-weight: 700;
   line-height: 1.17;
 }
-.footer__email {
+&__email {
   display: inline-flex;
   margin-left: 78px;
   background-color: #2f303a;
@@ -92,7 +87,12 @@
   padding-left: 16px;
   font-size: 16px;
 }
-.footer__send-icon {
+&__send-icon {
   fill: var(--primary-white-color);
   margin-left: 24px;
+}
+}
+.container__footer {
+  display: flex;
+  align-items: baseline;
 }

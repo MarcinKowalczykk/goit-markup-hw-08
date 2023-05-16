@@ -1,15 +1,15 @@
 .button-list {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-    &__item:not(:last-child) {
-  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
-  }
-  .button-list__item{
-    display: flex;
-  }
-  .portfolio-button:hover,
+.button-list__item {
+  display: flex;
+}
+.portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--brand-color);

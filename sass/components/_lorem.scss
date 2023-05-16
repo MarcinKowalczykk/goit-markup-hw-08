@@ -1,16 +1,15 @@
 .lorem {
   background-color: var(--primary-white-color);
-}
-.lorem__list {
+&__list {
   display: flex;
 }
-.lorem__item {
+&__item {
   display: inline-block;
   &:not(:last-child) {
-  margin-right: 30px;
+    margin-right: 30px;
+  }
 }
-}
-.lorem__icon-list {
+&__icon {
   width: 270px;
   height: 120px;
   display: flex;
@@ -19,14 +18,15 @@
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-.lorem__description-title {
+&__title {
   color: var(--title-color);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.lorem__description {
+&__description {
   line-height: 1.71;
   margin-top: 10px;
+}
 }

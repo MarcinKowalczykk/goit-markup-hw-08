@@ -28,10 +28,9 @@
 }
 .checkbox__input-check:checked + .checkbox__text span {
   background-color: var(--brand-color);
- border: none;
+  border: none;
   fill: var(--primary-white-color);
 }
 .checkbox__input-check:focus + .checkbox__text span {
   border-color: var(--brand-color);
 }
-

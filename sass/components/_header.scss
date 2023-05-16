@@ -1,25 +1,20 @@
 .header {
   border-bottom: 1px solid #ececec;
 
-  .header__container {
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .header__nav {
+  &__nav {
     display: flex;
     align-items: center;
   }
-  .header__studio {
-    color: #000;
-    margin-top: 24px;
-    margin-bottom: 25px;
-  }
-  .header__nav-list {
+  &__nav-list {
     display: flex;
     padding-left: 93px;
   }
-  .header__nav-link {
+  &__nav-link {
     display: block;
     color: var(--title-color);
     transition-property: color;
@@ -35,11 +30,11 @@
       color: var(--brand-color);
     }
   }
-  .header__nav-link--underline {
+  &__nav-link--underline {
     position: relative;
     display: flex;
   }
-  .header__nav-link--underline::after {
+  &__nav-link--underline::after {
     content: '';
     position: absolute;
     width: 53px;
@@ -48,7 +43,7 @@
     background-color: var(--brand-color);
     top: 46px;
   }
-  .header__contact-link {
+  &__contact-link {
     display: flex;
     color: var(--primary-text-color);
     padding-top: 32px;
@@ -62,36 +57,27 @@
       color: var(--brand-color);
     }
   }
-  .header__nav-item:not(:last-child) {
+  &__nav-item:not(:last-child) {
     margin-right: 46px;
   }
-  .header__contact-list {
+  &__contact-list {
     display: flex;
     align-items: center;
   }
-  .header__contact-list .header__contact-item:not(:last-child) {
+  &__contact-list .header__contact-item:not(:last-child) {
     margin-right: 50px;
   }
-  .header__mail-icon {
-    padding-right: 10px;
-    fill: var(--primary-text-color);
-    margin-top: 2px;
-  }
-  .header__tel-icon {
+  &__icon {
     padding-right: 10px;
     fill: var(--primary-text-color);
     align-items: center;
     display: flex;
   }
-  .header__contact-item:not(:last-child) {
+  &__contact-item:not(:last-child) {
     margin-right: 46px;
   }
-  .header__contact-link:focus .header__mail-icon,
-  .header__contact-link:hover .header__mail-icon {
-    fill: currentColor;
-  }
-  .header__contact-link:focus .header__tel-icon,
-  .header__contact-link:hover .header__tel-icon {
+  &__contact-link:focus .header__icon,
+  &__contact-link:hover .header__icon {
     fill: currentColor;
   }
 }
