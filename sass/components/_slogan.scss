@@ -1,7 +1,61 @@
 .slogan {
+  /* Style podstawowe */
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/section1.jpg');
+    url('../images/header@480.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-size: 480px;
+  background-position: center;
+  &__title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 365px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slogan {
+    /* Style tabletu */
+     background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/header@768.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-size: 768px;
+  background-position: center;
+  &__title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 365px;
+    margin: 0 auto;
+  }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slogan {
+    /* Style desktopu */
+      background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/header@1600.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -9,15 +63,16 @@
   padding-bottom: 200px;
   background-size: 1600px;
   background-position: center;
-&__title {
-  color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  width: 696px;
-  margin: 0 auto;
+  &__title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    margin: 0 auto;
+  }
 }
 }
