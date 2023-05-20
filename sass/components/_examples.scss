@@ -1,27 +1,31 @@
 .examples {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
   background-color: var(-primary-white-color);
   padding-top: 0;
-&__img-list {
-  display: flex;
-}
-&__img:not(:last-child) {
-  margin-right: 30px;
-}
-&__img {
-  position: relative;
-  display: inline-flex;
-}
-&__img-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  background-color: rgba(47, 48, 58, 0.8);
-  color: var(--primary-white-color);
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1.14;
-  bottom: 0;
-  padding: 27px;
-  text-align: center;
-}
+  &__img-list {
+    display: flex;
+  }
+  &__img:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__img {
+    position: relative;
+    display: inline-flex;
+  }
+  &__img-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+    bottom: 0;
+    padding: 27px;
+    text-align: center;
+  }
 }

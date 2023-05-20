@@ -155,7 +155,35 @@
           <h2 class="section__header">Nasz zespół</h2>
           <ul class="team__list">
             <li class="team__img">
-              <img src="./images/our_team_img1.jpg" alt="product designer" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our_team_img1@desktop-x1.jpg 1x,
+                    ./images/our_team_img1@desktop-x2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img1@tablet-x1.jpg 1x,
+                    ./images/our_team_img1@tablet-x2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img1@mobile-x1.jpg 1x,
+                    ./images/our_team_img1@mobile-x2.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-photo"
+                  src="./images/our_team_img1@desktop-x1.jpg"
+                  alt="product designer"
+                  width="270"
+                />
+              </picture>
               <h3 class="team__member">John Doe</h3>
               <p class="team__dscr">Product Designer</p>
               <ul class="team__icon-list">
@@ -182,9 +210,36 @@
                 </li>
               </ul>
             </li>
-
             <li class="team__img">
-              <img src="./images/our_team_img2.jpg" alt="frontend developer" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our_team_img2@desktop-x1.jpg 1x,
+                    ./images/our_team_img2@desktop-x2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img2@tablet-x1.jpg 1x,
+                    ./images/our_team_img2@tablet-x2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img2@mobile-x1.jpg 1x,
+                    ./images/our_team_img2@mobile-x2.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-photo"
+                  src="./images/our_team_img2@desktop-x1.jpg"
+                  alt="frontend developer"
+                  width="270"
+                />
+              </picture>
               <h3 class="team__member">John Doe</h3>
               <p class="team__dscr">Frontend Developer</p>
               <ul class="team__icon-list">
@@ -212,7 +267,35 @@
               </ul>
             </li>
             <li class="team__img">
-              <img src="./images/our_team_img3.jpg" alt="marketing employee" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our_team_img3@desktop-x1.jpg 1x,
+                    ./images/our_team_img3@desktop-x2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img3@tablet-x1.jpg 1x,
+                    ./images/our_team_img3@tablet-x2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img3@mobile-x1.jpg 1x,
+                    ./images/our_team_img3@mobile-x2.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-photo"
+                  src="./images/our_team_img3@desktop-x1.jpg"
+                  alt="marketing employee"
+                  width="270"
+                />
+              </picture>
               <h3 class="team__member">John Doe</h3>
               <p class="team__dscr">Marketing</p>
               <ul class="team__icon-list">
@@ -240,7 +323,35 @@
               </ul>
             </li>
             <li class="team__img">
-              <img src="./images/our_team_img4.jpg" alt="ui designer" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our_team_img4@desktop-x1.jpg 1x,
+                    ./images/our_team_img4@desktop-x2.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img4@tablet-x1.jpg 1x,
+                    ./images/our_team_img4@tablet-x2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our_team_img4@mobile-x1.jpg 1x,
+                    ./images/our_team_img4@mobile-x2.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-photo"
+                  src="./images/our_team_img4@desktop-x1.jpg"
+                  alt="ui designer"
+                  width="270"
+                />
+              </picture>
               <h3 class="team__member">John Doe</h3>
               <p class="team__dscr">UI Designer</p>
               <ul class="team__icon-list">
@@ -313,10 +424,12 @@
     <footer class="footer">
       <div class="container container__footer">
         <div class="footer__info">
-          <a class="logo" href="./index.html">Web<span class="logo--footer">Studio</span></a>
+          <a class="logo mobile-logo-footer" href="./index.html"
+            >Web<span class="logo--footer">Studio</span></a
+          >
           <address class="footer__address">
             <ul>
-              <li>
+              <li class="footer__item">
                 <a
                   class="footer__address-link"
                   href="https://goo.gl/maps/DqFRkDnWRkVaE6vH8"
@@ -333,7 +446,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer-social-container">
           <h4 class="footer__social-title">Dołącz do nas</h4>
           <ul class="footer__social-icon-list">
             <li class="footer__icon">
@@ -359,17 +472,19 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="sub-container">
           <h4 class="footer__newsletter-title">Zapisz się do newslettera</h4>
           <form class="footer__newsletter-form">
             <label for="email"></label>
             <input type="email" class="footer__email" placeholder="E-mail" name="email" />
+            <div class="footer__btn-container">
             <button type="submit" class="footer__email-button">
               Zapisz się
               <svg class="footer__send-icon" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
@@ -437,5 +552,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

@@ -4,13 +4,17 @@
   height: auto;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/header@480.jpg');
+    url('../images/header@480x1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
   background-position: center;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/header@480x2.jpg');
+  }
   &__title {
     color: var(--primary-white-color);
     font-weight: 900;
@@ -29,7 +33,7 @@
     /* Style tabletu */
     background-color: #2f303a;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/header@768.jpg');
+      url('../images/header@768x1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -37,6 +41,10 @@
     padding-bottom: 118px;
     background-size: 768px;
     background-position: center;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/header@768x2.jpg');
+    }
     &__title {
       color: var(--primary-white-color);
       font-weight: 900;
@@ -56,7 +64,7 @@
     /* Style desktopu */
     background-color: #2f303a;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/header@1600.jpg');
+      url('../images/header@1600x1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -64,6 +72,10 @@
     padding-bottom: 200px;
     background-size: 1600px;
     background-position: center;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/header@1600x2.jpg');
+    }
     &__title {
       color: var(--primary-white-color);
       font-weight: 900;
