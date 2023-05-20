@@ -48,7 +48,9 @@
   }
     @media screen and (min-width: 1200px) {
     line-height: 1.15;
-    margin-left: 0;
+    margin-left: 40;
+    width: 448px;
+    
   }
 }
 &__form-container {
@@ -135,6 +137,13 @@
   padding-left: 4px;
   &:not(:last-child) {
     padding-right: 4px;
+  }
+}
+&__link-text{
+  display: inline-block;
+  font-size: 12px;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
   }
 }
 &__button-container {

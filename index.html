@@ -31,6 +31,14 @@
             <li class="header__nav-item"><a href="#" class="header__nav-link">Kontakt</a></li>
           </ul>
         </nav>
+         <button type="button" class="menu-open" data-menu-open>
+          <svg width="24" height="16">
+            <use
+              class="menu-icon"
+              href="./images/icons.svg#icon-menu_24px"
+            ></use>
+          </svg>
+        </button>
         <ul class="header__contact-list">
           <li class="header__contact-item">
             <a href="mailto:info@devstudio.com" class="header__contact-link">
@@ -50,6 +58,63 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu is-hidden" data-menu>
+        <div class="container">
+          <div class="mobile-menu-top">
+            <button type="button" class="mobile-close-button" data-menu-close>
+              <svg class="close-button-cross" width="19" height="19">
+                <use href="./images/icons.svg#icon-close_24px"></use>
+              </svg>
+            </button>
+            <ul class="mobile-navigation__list list">
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="mobile-navigation__link link current"
+                  >Agencja</a
+                >
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="mobile-navigation__link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="item">
+                <a href="#" class="mobile-navigation__link link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+      <div class="mobile-menu-bot">
+            <ul class="contacts mobile__contacts list">
+              <li class="item mobile-contacts__item">
+                <a href="tel:+48111111111" class="mobile-contacts__phone link">
+                  +48 111 111 111</a
+                >
+              </li>
+              <li class="item mobile-contacts__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-contacts__mail link"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mobile-soc-list list">
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">Instagram</a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">Twitter</a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">Facebook</a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
     </header>
     <main>
       <!--Section 1-->
@@ -539,10 +604,12 @@
                   <use href="./images/icons.svg#icon-check-icon"></use>
                 </svg>
               </span>
+              <div class="modal__link-text">
               Oświadczam iż akceptuję
               <a href="#" class="modal__link">Regulamin</a>
               i
               <a href="#" class="modal__link">Politykę Prywatności.</a>
+              </div>
             </label>
           </div>
           <div class="modal__button-container">

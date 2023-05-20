@@ -152,6 +152,9 @@
 }
 .footer__newsletter-form{
   text-align: start;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 .footer__btn-container{
   text-align: center;
