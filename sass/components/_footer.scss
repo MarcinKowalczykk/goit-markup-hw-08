@@ -10,17 +10,15 @@
       margin-bottom: 0;
     }
     @media screen and (min-width: 1200px) {
-      margin-bottom: 0;
       margin-right: 70px;
       text-align: start;
     }
   }
-  .footer__address {
+  &__address {
     margin-top: 20px;
     @media screen and (min-width: 1200px) {
       margin-top: 20px;
-
-      footer__item:not(:last-child) {
+      &__adress-item:not(:last-child) {
         margin-bottom: 9px;
       }
     }
@@ -31,7 +29,7 @@
     line-height: 1.71;
     font-style: normal;
   }
-  &__item {
+  &__adress-item {
     margin-top: 3px;
   }
   &__contact {
@@ -114,46 +112,45 @@
     fill: var(--primary-white-color);
     margin-left: 24px;
   }
-}
-.container__footer {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-around;
+
+  .container__footer {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-around;
+    }
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
   }
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
+  .mobile-logo-footer {
+    @media screen and (min-width: 1200px) {
+      margin-right: 0;
+    }
   }
-}
-.mobile-logo-footer {
-  @media screen and (min-width: 1200px) {
-    margin-right: 0;
+  &__social-container {
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      margin-right: 78px;
+      text-align: start;
+    }
   }
-}
-.footer-social-container {
-  text-align: center;
-  @media screen and (min-width: 1200px) {
-    margin-right: 78px;
+  .sub-container {
+    text-align: center;
+    margin-top: 60px;
+    @media screen and (min-width: 1200px) {
+      margin-top: 0;
+      text-align: start;
+    }
+  }
+  &__newsletter-form {
     text-align: start;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
   }
-}
-.sub-container {
-  text-align: center;
-  margin-top: 60px;
-  @media screen and (min-width: 1200px) {
-    margin-top: 0;
-    text-align: start;
+  &__btn-container {
+    text-align: center;
   }
-}
-.footer__newsletter-form {
-  text-align: start;
-  @media screen and (min-width: 1200px) {
-    display: flex;
-  }
-}
-.footer__btn-container {
-  text-align: center;
 }

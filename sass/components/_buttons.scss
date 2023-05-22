@@ -1,47 +1,40 @@
-.button-center {
+.button {
+  color: var(--primary-white-color);
+  font-family: var(--font-primary);
   background-color: var(--brand-color);
-  color: var(--primary-white-color);
-  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em;
-  margin-top: 30px;
-  border-radius: 4px;
   border: none;
-  padding: 10px 41px 10px 42px;
-}
-.footer__email-button {
-  
-  display: inline-flex;
-  background: var(--brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--primary-white-color);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  padding: 10px 26px 10px 42px;
-  border: none;
-  margin-top: 20px;
-  @media screen and (min-width: 1200px) {
-    margin-left: 10px;
-    margin-top: 0;
-    
+
+  &__center {
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 10px 41px 10px 42px;
   }
-}
-.portfolio-button {
-  background-color: #f5f4fa;
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  padding: 6px 22px;
-  border-radius: 4px;
-  border: none;
-  transition-property: color background-color box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+  &__footer-email {
+    display: inline-flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    padding: 10px 26px 10px 42px;
+    margin-top: 20px;
+    @media screen and (min-width: 1200px) {
+      margin-left: 10px;
+      margin-top: 0;
+    }
+  }
+  &__portfolio {
+    color: var(--title-color);
+    background-color: #f5f4fa;
+    font-weight: 500;
+    line-height: 1.62;
+    padding: 6px 22px;
+    border-radius: 4px;
+    transition-property: color background-color box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+  }
 }
