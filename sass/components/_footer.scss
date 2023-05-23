@@ -9,7 +9,7 @@
       margin-bottom: 0;
     }
     @media screen and (min-width: 1200px) {
-      margin-right: 70px;
+      margin-right: 68px;
       text-align: start;
     }
   }
@@ -88,7 +88,7 @@
   &__email {
     display: inline-flex;
     background-color: #2f303a;
-    min-width: 88vw;
+    width: 88vw;
     height: 48px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
