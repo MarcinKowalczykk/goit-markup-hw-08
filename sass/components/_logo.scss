@@ -13,4 +13,9 @@
   &--footer {
   color: var(--primary-white-color);
 }
+&--mobile-footer {
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
+  }
+}
 }

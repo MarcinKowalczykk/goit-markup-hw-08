@@ -2,7 +2,6 @@
   background-color: #2f303a;
   padding: 60px 0;
   font-family: var(--font-primary);
-
   &__info {
     text-align: center;
     margin-bottom: 60px;
@@ -25,22 +24,18 @@
   }
   &__address-link {
     color: var(--primary-white-color);
-    font-style: normal;
     line-height: 1.71;
-    font-style: normal;
   }
   &__adress-item {
     margin-top: 3px;
   }
   &__contact {
     color: var(--primary-text-color);
-    font-style: normal;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
     line-height: 1.71;
-    font-style: normal;
     &:hover,
     &:focus {
       color: var(--brand-color);
@@ -93,7 +88,7 @@
   &__email {
     display: inline-flex;
     background-color: #2f303a;
-    width: 90vw;
+    min-width: 88vw;
     height: 48px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -112,23 +107,6 @@
     fill: var(--primary-white-color);
     margin-left: 24px;
   }
-
-  .container__footer {
-    @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      justify-content: space-around;
-    }
-    @media screen and (min-width: 1200px) {
-      justify-content: flex-start;
-    }
-  }
-  .mobile-logo-footer {
-    @media screen and (min-width: 1200px) {
-      margin-right: 0;
-    }
-  }
   &__social-container {
     text-align: center;
     @media screen and (min-width: 1200px) {
@@ -136,15 +114,8 @@
       text-align: start;
     }
   }
-  .sub-container {
-    text-align: center;
-    margin-top: 60px;
-    @media screen and (min-width: 1200px) {
-      margin-top: 0;
-      text-align: start;
-    }
-  }
   &__newsletter-form {
+    margin-left: 15px;
     text-align: start;
     @media screen and (min-width: 1200px) {
       display: flex;

@@ -55,20 +55,20 @@
       <!--buttons-->
       <section class="section">
         <div class="container">
-          <ul class="list button-list">
-            <li class="button-list__item">
+          <ul class="list btn-list">
+            <li class="btn-list__item">
               <button type="button" class="button button__portfolio">Wszystkie</button>
             </li>
-            <li class="button-list__item">
+            <li class="btn-list__item">
               <button type="button" class="button button__portfolio">Strony</button>
             </li>
-            <li class="button-list__item">
+            <li class="btn-list__item">
               <button type="button" class="button button__portfolio">Dizajn</button>
             </li>
-            <li class="button-list__item">
+            <li class="btn-list__item">
               <button type="button" class="button button__portfolio">Aplikacje</button>
             </li>
-            <li class="button-list__item">
+            <li class="btn-list__item">
               <button type="button" class="button button__portfolio">Marketing</button>
             </li>
           </ul>
@@ -195,10 +195,12 @@
     <footer class="footer">
       <div class="container container__footer">
         <div class="footer__info">
-          <a class="logo" href="./index.html">Web<span class="logo--footer">Studio</span></a>
+          <a class="logo mobile-logo-footer" href="./index.html"
+            >Web<span class="logo--footer">Studio</span></a
+          >
           <address class="footer__address">
             <ul>
-              <li>
+              <li class="footer__adress-item">
                 <a
                   class="footer__address-link"
                   href="https://goo.gl/maps/DqFRkDnWRkVaE6vH8"
@@ -206,51 +208,54 @@
                   >m. Warszawa, Aleje Jerozolimskie 21</a
                 >
               </li>
-              <li class="footer__item">
+              <li class="footer__adress-item">
                 <a class="footer__contact" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="footer__item">
+              <li class="footer__adress-item">
                 <a class="footer__contact" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer__social-container">
           <h4 class="footer__social-title">Dołącz do nas</h4>
           <ul class="footer__social-icon-list">
             <li class="footer__icon">
-              <svg width="20px" height="20px">
+              <svg width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
             </li>
+
             <li class="footer__icon">
-              <svg width="20px" height="20px">
+              <svg width="20" height="20">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
               </svg>
             </li>
             <li class="footer__icon">
-              <svg width="20px" height="20px">
+              <svg width="20" height="20">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
               </svg>
             </li>
             <li class="footer__icon">
-              <svg width="20px" height="20px">
+              <svg width="20" height="20">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
               </svg>
             </li>
           </ul>
         </div>
-        <div>
+        <div class="sub-container">
           <h4 class="footer__newsletter-title">Zapisz się do newslettera</h4>
           <form class="footer__newsletter-form">
             <label for="email"></label>
             <input type="email" class="footer__email" placeholder="E-mail" name="email" />
-            <button type="submit" class="button__footer-email">
-              Zapisz się
-              <svg class="footer__send-icon" width="24px" height="24px">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
+            <div class="footer__btn-container">
+              <button type="submit" class="button button__footer-email">
+                Zapisz się
+                <svg class="footer__send-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
